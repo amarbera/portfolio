@@ -1,0 +1,202 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.project-image
+{
+    background-image: url("../images/hero_1.jpg");
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.project_box
+{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.logo
+{
+    text-align: center;
+}
+
+.spacing
+{
+    padding-top: 100px;
+}
+
+
+.background-slider
+{
+    position: relative;
+}
+
+
+/*---------sidebar panel----------------*/
+
+@media (max-width:992px)
+{
+    .mobileMenu
+    {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        transform: translateX(-100%);
+        transition: all ease 0.50s;
+        z-index: 99;
+        text-align: center;
+    }
+
+    .mobileMenu.onRight
+    {
+        top: 3%;
+        left: auto;
+        right: 0px;
+        transform: translateX(100%);
+    }
+    .mobileMenu.open
+        {
+            transform: translateX(0);
+        }
+}
+
+
+
+.bg-color
+{
+    background-color: white;
+}
+
+.content-slider
+{
+    width: 40%;
+    height: auto;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box; 
+}
+
+.content-slider h3
+{
+    font-size: 2vw;
+}
+
+.content-slider p
+{
+    font-size: 1.5vw;
+}
+
+.content-slider button
+{
+    font-size: 0.9vw;
+    padding: 0.5rem;
+}
+
+
+.card-img-top
+{
+    align-self: center;
+}
+
+
+.first-content
+{
+    
+    box-shadow: -5px 10px 10px #888888;
+    top:50px;
+    z-index: 1;
+}
+
+.sec-content
+{
+    left: -10%;
+    padding: 0;
+    box-shadow: 10px 5px 7px #888888;
+}
+
+@media (max-width:991.98px)
+{
+    .sec-content
+{
+    left:0%;
+}
+}
+
+
+.third-content
+{
+    margin-top: 50px;
+    transition: linear 0.5s;
+}
+
+.third-content:hover
+{
+    transform: translatey(20px);
+}
+
+
+.forth-content
+{
+    margin-top: 10px;
+    transition: linear 0.5s;
+}
+
+.forth-content:hover
+{
+    transform: translatey(40px);
+}
+
+.btn
+{
+    color: whitesmoke;
+    background-color: teal;
+}
+
+.fifth-content
+{
+    padding: 40px;
+}
+
+
+.footer
+{
+    background-color:#BEBEBE;
+}
+
+a
+{
+    color: lightslategrey;
+}
+a:hover{
+    text-decoration: none;
+    color: #006400
+}
+
+.person
+{
+    background-color: white;
+    width: 300px;
+    height: 400px;
+}
+
+.img
+{
+    transform: translate(-5%, -20%);
+    box-shadow: 10px 15px 7px #888888;
+}
+
+
+.spacing-bottom
+{
+    margin-bottom: 6%;
+}
